@@ -4,6 +4,7 @@ const BASE_URL = "http://localhost:9000";
 const CitiesContext = createContext();
 
 function CitiesProvider({ children }) {
+  const [currentCity, setCurrentCity] = useState({});
   const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -24,11 +25,32 @@ function CitiesProvider({ children }) {
     loadCities();
   }, []);
 
+  async function getCity(id) {
+    try {
+      setIsLoading(true);
+
+      const res = await fetch(`${BASE_URL}/cities/${id}`);
+
+      if (!res.ok) {
+        throw new Error(`City ${id} not found`);
+      }
+
+      const data = await res.json();
+      setCurrentCity(data);
+    } catch (err) {
+      console.error(err.message);
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
   return (
     <CitiesContext.Provider
       value={{
         cities,
         isLoading,
+        currentCity,
+        getCity,
       }}
     >
       {children}
@@ -44,4 +66,5 @@ function useCities() {
   return context;
 }
 
+/* eslint-disable react-refresh/only-export-components */
 export { CitiesProvider, useCities };
