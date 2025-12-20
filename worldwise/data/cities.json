@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,91 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "83e8",
+      "cityName": "Munilla",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-12-19T22:37:01.779Z",
+      "notes": "",
+      "position": {
+        "lat": "42.147114459221015",
+        "lng": "-2.39501953125"
+      }
+    },
+    {
+      "id": "c555",
+      "cityName": "Fontenay-sous-Fouronnes",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-12-19T22:39:10.366Z",
+      "notes": "",
+      "position": {
+        "lat": "47.633471879021194",
+        "lng": "3.6013967418942676"
+      }
+    },
+    {
+      "id": "0744",
+      "cityName": "Vienna",
+      "country": "Austria",
+      "emoji": "🇦🇹",
+      "date": "2025-12-19T22:41:50.429Z",
+      "notes": "",
+      "position": {
+        "lat": "48.122101028190805",
+        "lng": "16.413574218750004"
+      }
+    },
+    {
+      "id": "de8f",
+      "cityName": "Prague",
+      "country": "Czechia",
+      "emoji": "🇨🇿",
+      "date": "2025-12-19T22:43:01.919Z",
+      "notes": "Nice",
+      "position": {
+        "lat": "50.02185841773447",
+        "lng": "14.414062500000002"
+      }
+    },
+    {
+      "id": "5d91",
+      "cityName": "Enna",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2025-12-19T22:44:04.881Z",
+      "notes": "",
+      "position": {
+        "lat": "37.50972584293751",
+        "lng": "14.150390625000002"
+      }
+    },
+    {
+      "id": "fb18",
+      "cityName": "New York City",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2025-12-19T22:45:17.508Z",
+      "notes": "",
+      "position": {
+        "lat": "40.72644570551446",
+        "lng": "-73.87756347656251"
+      }
+    },
+    {
+      "id": "3aa8",
+      "cityName": "Washington",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2025-12-19T22:47:27.725Z",
+      "notes": "",
+      "position": {
+        "lat": "38.87392853923632",
+        "lng": "-77.03613281250001"
+      }
     }
   ]
 }
