@@ -37,18 +37,6 @@
       "id": "98443197"
     },
     {
-      "id": "83e8",
-      "cityName": "Munilla",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-12-19T22:37:01.779Z",
-      "notes": "",
-      "position": {
-        "lat": "42.147114459221015",
-        "lng": "-2.39501953125"
-      }
-    },
-    {
       "id": "c555",
       "cityName": "Fontenay-sous-Fouronnes",
       "country": "France",
@@ -85,18 +73,6 @@
       }
     },
     {
-      "id": "5d91",
-      "cityName": "Enna",
-      "country": "Italy",
-      "emoji": "🇮🇹",
-      "date": "2025-12-19T22:44:04.881Z",
-      "notes": "",
-      "position": {
-        "lat": "37.50972584293751",
-        "lng": "14.150390625000002"
-      }
-    },
-    {
       "id": "fb18",
       "cityName": "New York City",
       "country": "United States of America (the)",
@@ -109,15 +85,15 @@
       }
     },
     {
-      "id": "3aa8",
-      "cityName": "Washington",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "date": "2025-12-19T22:47:27.725Z",
+      "id": "7f36",
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-12-21T13:58:50.107Z",
       "notes": "",
       "position": {
-        "lat": "38.87392853923632",
-        "lng": "-77.03613281250001"
+        "lat": "51.50190410761811",
+        "lng": "-0.16479492187500003"
       }
     }
   ]
